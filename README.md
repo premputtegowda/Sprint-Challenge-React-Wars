@@ -25,14 +25,20 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+    React is a UI library that is used in various forms to create complex, rich user interfaces
+    React is component based  and displays some data (often called “state”) to the screen for our users. Each component holds it’s own state and are javascript based. Since components are are javascript based, you can pass rich data to the UI
 
 - [ ] What does it mean to _think_ in react?
 
+    It means that we can divide the complex application into smaller components with components managing it’s own data and state
+
 - [ ] Describe state.
+    tate is nothing but an object that determines what is rendered on the UI.
 
 - [ ] Describe props.
-
+    Props are properties that are passed on to each component. Component takes in the input(props) and determines what needs to be displayed on the UI
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+    Side effects are anything that occur outside the scope of the function. The side effects can be synced with React using useEffect components and specificying the state of the state that needs to be synced with the component
 
 ## Project Set Up
 
