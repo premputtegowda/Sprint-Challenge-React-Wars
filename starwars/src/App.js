@@ -1,5 +1,15 @@
 import React from 'react';
 import './App.css';
+import CharacterList from "./components/CharacterList";
+import styled from "styled-components";
+
+const TitleHeader = styled.header`
+  background-color: black;
+`
+const H1Tag = styled.h1`
+  color: white;
+`;
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -11,7 +21,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">React Wars</h1>
+
+      <TitleHeader>
+        <H1Tag className="Header">React Wars</H1Tag>
+      </TitleHeader>
+      
+      <CharacterList />
     </div>
   );
 }
